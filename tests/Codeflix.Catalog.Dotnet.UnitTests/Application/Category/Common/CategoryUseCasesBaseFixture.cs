@@ -33,4 +33,11 @@ public Mock<ICategoryRepository> GetRepositoryMock()
                 categoryDescription[..10_000];
         return categoryDescription;
     }
+
+    public DomainEntity.Category GetExampleCategory()
+    => new(
+        GetValidCategoryName(),
+        GetValidCategoryDescription(),
+        GetRandomBoolean()
+    );
 }

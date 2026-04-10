@@ -22,8 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\" />
-    <Folder Include="Application\Category\" />
     <Folder Include="Application\Category\Common\" />
     <Folder Include="Application\Category\Create\" />
     <Folder Include="Common\" />
