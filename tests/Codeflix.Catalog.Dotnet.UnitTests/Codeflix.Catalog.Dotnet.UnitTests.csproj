@@ -25,6 +25,7 @@
     <Folder Include="Application\Category\Common\" />
     <Folder Include="Application\Category\Create\" />
     <Folder Include="Application\Category\Delete\" />
+    <Folder Include="Application\Category\List\" />
     <Folder Include="Application\Category\Update\" />
     <Folder Include="Common\" />
   </ItemGroup>
