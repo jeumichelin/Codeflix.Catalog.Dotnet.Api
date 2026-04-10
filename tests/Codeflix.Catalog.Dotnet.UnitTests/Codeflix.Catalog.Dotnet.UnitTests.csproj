@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.4" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
     <PackageReference Include="Bogus" Version="34.0.1" />
@@ -21,12 +22,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Application\Category\" />
+    <Folder Include="Application\Category\Common\" />
+    <Folder Include="Application\Category\Create\" />
     <Folder Include="Common\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Codeflix.Catalog.Dotnet.Application\Codeflix.Catalog.Dotnet.Application.csproj" />
     <ProjectReference Include="..\..\src\Codeflix.Catalog.Dotnet.Domain\Codeflix.Catalog.Dotnet.Domain.csproj" />
-
   </ItemGroup>
 
 </Project>
